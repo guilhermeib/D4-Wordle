@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Wordle"; 
+  src: url("../fonts/EgyptienneURWXNarrow-Bold.ttf") format("truetype");
+}
+
+/* TOPO */
+
+.menu-esquerda {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  margin: 10px;
+}
+
+.wordle-ft {
+  font-family: "Wordle", Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  margin: 10px;
+  padding-left: 450px;
+  width: 100px;
+}
+
+.menu-direita {
+  z-index: 1;
+  font-size: 21px;
+  padding-left: 550px;
+  padding-top: 8px;
+}
+
+header {
+  padding: 0 16px 0 16px;
+  display: flex;
+}
+
+/* FIM DO TOPO*/
+
+
+hr {
+  margin-top: 0;
+}
+
+
+/* TABULEIRO*/
+
+.quadrado {
+  border: 1px solid #787c7e;
+  border-width: 2pt;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 60px;
+  margin-top: 4.5px;
+  display: inline-block;
+}
+
+.tabuleiro {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.errado {
+  background-color: #787c7e;
+}
+
+.certo {
+  background-color: #6aaa64;
+  border-color: #6aaa64;
+}
+
+.quase {
+  background-color: #c9b458;
+  border-color: #c9b458;
+}
+
+.vazio {
+  border-color: #ccc;
+}
+
+
+/* TECLADO */
+
+.teclado {
+  position: relative;
+  text-align: center;
+  top: 5px;
+  bottom: 0px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.letra-teclado {
+  width: 42px;
+  height: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  line-height: 52px;
+  text-transform: uppercase;
+  background-color: #d3d6da;
+  display: inline-block;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.especial {
+  width: 65px;
+}
+
+.far {
+  font-size: 20px;
+}
+
+.letra-errada {
+  color: #fff;
+  background-color: #787c7e;
+}
+
+.letra-certa {
+  color: #fff;
+  background-color: #6aaa64;
+}

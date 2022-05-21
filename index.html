@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="CSS/reset.css"/>
+    <link rel="stylesheet" href="CSS/style-wordle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+<header>
+
+      <div class="menu-esquerda">
+        <i class="fas fa-bars"></i>
+        <i class="fal fa-question-circle"></i>
+      </div>
+
+      <div>
+        <h1 class="wordle-ft">Wordle</h1>
+      </div>
+
+    <div class="menu-direita">
+      <span class="material-icons-outlined">leaderboard</span>
+      <i class="fas fa-cog maior"></i>
+    </div>
+</header>
+
+<hr>
+
+    <div class="tabuleiro">
+      <div class="linha">
+       <div class="quadrado errado">W</div>
+       <div class="quadrado errado">O</div>
+       <div class="quadrado quase">R</div>
+       <div class="quadrado errado">L</div>
+       <div class="quadrado errado">D</div>
+      </div>
+
+      <div class="linha">
+        <div class="quadrado quase">R</div>
+        <div class="quadrado errado">A</div>
+        <div class="quadrado certo">I</div>
+        <div class="quadrado errado">S</div>
+        <div class="quadrado errado">E</div>
+       </div>
+
+       <div class="linha">
+        <div class="quadrado quase">M</div>
+        <div class="quadrado errado">O</div>
+        <div class="quadrado errado">U</div>
+        <div class="quadrado errado">N</div>
+        <div class="quadrado errado">T</div>
+       </div>
+
+       <div class="linha">
+        <div class="quadrado errado">G</div>
+        <div class="quadrado certo">R</div>
+        <div class="quadrado certo">I</div>
+        <div class="quadrado certo">M</div>
+        <div class="quadrado errado">E</div>
+       </div>
+
+       <div class="linha">
+        <div class="quadrado certo">C</div>
+        <div class="quadrado certo">R</div>
+        <div class="quadrado certo">I</div>
+        <div class="quadrado certo">M</div>
+        <div class="quadrado certo">P</div>
+       </div>
+
+       <div class="linha">
+        <div class="quadrado vazio"></div>
+        <div class="quadrado vazio"></div>
+        <div class="quadrado vazio"></div>
+        <div class="quadrado vazio"></div>
+        <div class="quadrado vazio"></div>
+       </div>
+    </div>
+
+    <div class="teclado">
+        <div class="letra-teclado">q</div>
+          <div class="letra-teclado letra-errada">w</div>
+          <div class="letra-teclado letra-errada">e</div>
+          <div class="letra-teclado letra-certa">r</div>
+          <div class="letra-teclado letra-errada">t</div>
+          <div class="letra-teclado">y</div>
+          <div class="letra-teclado letra-errada">u</div>
+          <div class="letra-teclado letra-certa">i</div>
+          <div class="letra-teclado letra-errada">o</div>
+          <div class="letra-teclado letra-certa">p</div>
+        </div>
+
+        <div class="teclado">
+            <div class="letra-teclado letra-errada">a</div>
+            <div class="letra-teclado letra-errada">s</div>
+            <div class="letra-teclado letra-errada">d</div>
+            <div class="letra-teclado">f</div>
+            <div class="letra-teclado letra-errada">g</div>
+            <div class="letra-teclado">h</div>
+            <div class="letra-teclado">j</div>
+            <div class="letra-teclado">k</div>
+            <div class="letra-teclado letra-errada">l</div>
+          </div>
+
+          <div class="teclado">
+            <div class="letra-teclado especial centralizar">enter</div>
+            <div class="letra-teclado">z</div>
+            <div class="letra-teclado">x</div>
+            <div class="letra-teclado letra-certa">c</div>
+            <div class="letra-teclado">v</div>
+            <div class="letra-teclado">b</div>
+            <div class="letra-teclado letra-errada">n</div>
+            <div class="letra-teclado letra-certa">m</div>
+            <div class="letra-teclado especial"><i class="far fa-backspace"></i></div>
+          </div>
+        </div>
+    
+    </body>
